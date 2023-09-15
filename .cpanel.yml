@@ -2,7 +2,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/your-username/public_html/
+    - export DEPLOYPATH=/home/u1573949/public_html/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
