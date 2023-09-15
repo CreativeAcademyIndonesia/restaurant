@@ -2,7 +2,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1573949/public_html/
+    - export DEPLOYPATH=/home/u1573949/public_html/resto.creativeacademyid.com/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
